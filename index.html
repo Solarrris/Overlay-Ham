@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>HamMenu</title>
+    </head>
+    <body>
+        <div class="ham-container" onclick="hamOverlay()">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </div>
+        <div class="overlay">
+            <div class="dark-theme-container">
+                <h2>Dark Theme</h2>
+                <div class="slidercontainer">
+                    <button id="slider" onclick="activateSlider()"></button>
+                    <span id="bgslider"></span>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
